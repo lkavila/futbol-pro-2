@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
-import { _countriesService } from '../services/_countriesService'
+import { useEffect, useState } from "react";
+import { _countriesService } from '../services/_countriesService';
 import { Country } from "@futbol-pro/types";
 
 export const useCountries = () => {

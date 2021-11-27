@@ -1,6 +1,6 @@
 import { Venue } from "@futbol-pro/types";
-import { useEffect, useState } from "react"
-import { _venueService } from '../services/_venueService'
+import { useEffect, useState } from "react";
+import { _venueService } from '../services/_venueService';
 
 export const useVenue = () => {
   const [venue, setVenue] = useState<Venue>();

@@ -1,4 +1,3 @@
-import Link from 'next/Link';
 import styled from 'styled-components';
 import { Ui } from '@futbol-pro/ui';
 import Countries from '../components/countries/countries';

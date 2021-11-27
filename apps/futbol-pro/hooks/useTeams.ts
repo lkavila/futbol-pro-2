@@ -1,6 +1,6 @@
 import { Teams } from "@futbol-pro/types";
-import { useEffect, useState } from "react"
-import { _teamsService } from '../services/_teamsService'
+import { useEffect, useState } from "react";
+import { _teamsService } from '../services/_teamsService';
 
 export const useTeams = () => {
   const [teams, setTeams] = useState<Array<Teams>>([]);

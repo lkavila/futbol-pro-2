@@ -1,8 +1,8 @@
-import { useEffect } from 'react'
-import { useRouter } from 'next/router'
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 import styled from 'styled-components';
 import useTeams from '../../hooks/useTeams';
-import { TeamCard, Ui } from '@futbol-pro/ui'
+import { TeamCard, Ui } from '@futbol-pro/ui';
 
 const StyledPage = styled.div`
   .page {

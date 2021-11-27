@@ -1,9 +1,9 @@
-import { useEffect } from 'react'
-import { useRouter } from 'next/router'
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 import styled from 'styled-components';
 import useVenue from '../../../hooks/useVenue';
 import usePlayers from '../../../hooks/usePlayers';
-import { StadiumCard, PlayerCard, Ui } from '@futbol-pro/ui'
+import { StadiumCard, PlayerCard, Ui } from '@futbol-pro/ui';
 
 const StyledPlayers = styled.div`
   justify-content: space-around;

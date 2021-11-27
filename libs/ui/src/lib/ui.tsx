@@ -1,4 +1,4 @@
-import { UiProps } from '@futbol-pro/types'
+import { UiProps } from '@futbol-pro/types';
 import styled from 'styled-components';
 
 /* eslint-disable-next-line */
@@ -9,7 +9,7 @@ const StyledUi = styled.div`
 `;
 
 export function Ui(props: UiProps) {
-  const { playerName , playerAge} = props
+  const { playerName, playerAge } = props
   return (
     <StyledUi>
       <h1>{playerName} {playerAge}</h1>

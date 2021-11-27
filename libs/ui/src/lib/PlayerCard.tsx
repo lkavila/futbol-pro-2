@@ -1,5 +1,4 @@
 import { Player } from '@futbol-pro/types';
-import Image from 'next/image'
 
 
 export function PlayerCard(props: Player) {

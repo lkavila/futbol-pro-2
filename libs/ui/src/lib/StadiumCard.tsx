@@ -1,6 +1,6 @@
+import Image from 'next/image';
 import { Venue } from '@futbol-pro/types';
-import Image from 'next/image'
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const ABox = styled.div`
   display:flex;
@@ -62,27 +62,27 @@ export function StadiumCard(props: Venue) {
   const { name, image, address, capacity, city } = props
   return (
 
-      <ABox>
-        <TextContainerGeneral>
-          <ImgContainerGeneral>
-            {image &&
-              <Image
-                alt={'Bandera de ' + name}
-                width={300}
-                height={200}
-                loader={() => image}
-                src={image}
-              />
-            }
-          </ImgContainerGeneral>
-          <TextContainerBody>
-            <TextContainer>{"Estadio: " + name}</TextContainer>
-            <TextContainer>{"Ubicación: " + city}</TextContainer>
-            <TextContainer>{"Dirección: " + address}</TextContainer>
-            <TextContainer>{"Capacidad: " + capacity + " espectadores"}</TextContainer>
-          </TextContainerBody>
-        </TextContainerGeneral>
-      </ABox>
+    <ABox>
+      <TextContainerGeneral>
+        <ImgContainerGeneral>
+          {image &&
+            <Image
+              alt={'Bandera de ' + name}
+              width={300}
+              height={200}
+              loader={() => image}
+              src={image}
+            />
+          }
+        </ImgContainerGeneral>
+        <TextContainerBody>
+          <TextContainer>{"Estadio: " + name}</TextContainer>
+          <TextContainer>{"Ubicación: " + city}</TextContainer>
+          <TextContainer>{"Dirección: " + address}</TextContainer>
+          <TextContainer>{"Capacidad: " + capacity + " espectadores"}</TextContainer>
+        </TextContainerBody>
+      </TextContainerGeneral>
+    </ABox>
   )
 }
 
