@@ -19,9 +19,7 @@
     "styled-components": "5.3.3",
     "tslib": "^2.0.0",
     "typescript": "~4.4.3",
-    "@nrwl/nx-cloud": "latest"
-  },
-  "devDependencies": {
+    "@nrwl/nx-cloud": "latest",
     "@nrwl/cli": "13.2.2",
     "@nrwl/cypress": "13.2.2",
     "@nrwl/eslint-plugin-nx": "13.2.2",
@@ -56,5 +54,7 @@
     "prettier": "^2.3.1",
     "react-test-renderer": "17.0.2",
     "ts-jest": "27.0.5"
+  },
+  "devDependencies": {
   }
 }
