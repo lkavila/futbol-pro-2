@@ -19,9 +19,8 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: npm install -g nx
       - run: npm i @nrwl/nx-cloud
-      - run: nx serve
+      - run: npx nx build futbol-pro --prod
 
 workflows:
   test-build-deploy:
