@@ -18,7 +18,9 @@ jobs:
       - image: circleci/node
     steps:
       - checkout
-      - run: npm install && NODE_OPTIONS=--openssl-legacy-provider npm run build
+      - run: npm install
+      - run: npm i @nrwl/nx-cloud
+      - run: nx serve
 
 workflows:
   test-build-deploy:
